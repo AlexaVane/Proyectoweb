@@ -1,17 +1,448 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5443b42e-afd2-40c9-baa3-15f3e75e811a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas-create-dto/telas-create.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas-update-dto/telas-update.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web-IIB/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web-IIB/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web-IIB/web-examen/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web-IIB/web-examen/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web-IIB/web-examen/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Web-IIB/web-examen/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web-IIB/web-examen/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Web-IIB/web-examen/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web-IIB/web-examen/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Web-IIB/web-examen/src/main.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="telas-create.dto.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas-create-dto/telas-create.dto.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rol.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/rol/rol.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/app.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-238">
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actor-create.dto.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/actor/actor-create-dto/actor-create.dto.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Web-IIB/web-examen/src/app.controller.ts" />
+        <option value="$PROJECT_DIR$/Web-IIB/web-examen/src/main.ts" />
+        <option value="$PROJECT_DIR$/Web-IIB/web-examen/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.controller.ts" />
+        <option value="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.entity.ts" />
+        <option value="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.module.ts" />
+        <option value="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.service.ts" />
+        <option value="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas-update-dto/telas-update.dto.ts" />
+        <option value="$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas-create-dto/telas-create.dto.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Web-IIB/web-examen/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Web-IIB/web-examen/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Web-IIB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Web-IIB" type="462c0819:PsiDirectoryNode" />
+              <item name="web-examen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Web-IIB" type="462c0819:PsiDirectoryNode" />
+              <item name="web-examen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Web-IIB" type="462c0819:PsiDirectoryNode" />
+              <item name="web-examen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Web-IIB" type="462c0819:PsiDirectoryNode" />
+              <item name="web-examen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actor" type="462c0819:PsiDirectoryNode" />
+              <item name="actor-create-dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Web-IIB" type="462c0819:PsiDirectoryNode" />
+              <item name="web-examen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pelicula" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Web-IIB" type="462c0819:PsiDirectoryNode" />
+              <item name="web-examen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pelicula" type="462c0819:PsiDirectoryNode" />
+              <item name="pelicula-create-dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Web-IIB" type="462c0819:PsiDirectoryNode" />
+              <item name="web-examen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="telas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectoweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Web-IIB" type="462c0819:PsiDirectoryNode" />
+              <item name="web-examen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="telas" type="462c0819:PsiDirectoryNode" />
+              <item name="telas-create-dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/Web-IIB/web-examen/node_modules/typescript/lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5443b42e-afd2-40c9-baa3-15f3e75e811a" name="Default" comment="" />
+      <created>1549637352778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549637352778</updated>
+      <workItem from="1549637354567" duration="2088000" />
+      <workItem from="1549646664441" duration="1424000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3512000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas-create-dto/telas-create.dto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/actor/actor-create-dto/actor-create.dto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas-update-dto/telas-update.dto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.controller.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.entity.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/actor/actor-update-dto/actor-update.dto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/dto/credenciales.dto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.entity.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/actor/actor-update-dto/actor-update.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas-update-dto/telas-update.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/actor/actor.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/pelicula/pelicula.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas.controller.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/actor/actor.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/actor/actor-create-dto/actor-create.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/telas/telas-create-dto/telas-create.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/rol/rol.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-IIB/web-examen/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

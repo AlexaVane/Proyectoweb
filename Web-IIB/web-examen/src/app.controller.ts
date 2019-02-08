@@ -3,8 +3,8 @@ import { AppService } from './app.service';
 import {UsuarioService} from './usuario/usuario.service';
 import {RolPorUsuarioService} from './rolPorUsuario/rolPorUsuario.service';
 import {validate} from 'class-validator';
-import {CredencialesDto} from './dto/credenciales.dto';
-import {error} from 'util';
+import {CredencialesDto} from "./dto/credenciales.dto";
+
 
 @Controller()
 export class AppController {
