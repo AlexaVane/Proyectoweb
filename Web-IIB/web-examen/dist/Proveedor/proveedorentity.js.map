@@ -1,1 +1,1 @@
-{"version":3,"file":"proveedorentity.js","sourceRoot":"","sources":["../../src/Proveedor/proveedorentity.ts"],"names":[],"mappings":""}
+{"version":3,"file":"proveedorentity.js","sourceRoot":"","sources":["../../src/Proveedor/proveedorentity.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,qCAA0E;AAC1E,iEAA2D;AAI3D,IAAa,eAAe,GAA5B;CAwBC,CAAA;AArBG;IADC,gCAAsB,EAAE;;qDACJ;AAGrB;IADC,gBAAM,EAAE;;0CACC;AAQV;IAJC,mBAAS,CACN,IAAI,CAAC,EAAE,CAAC,gCAAc,EACtB,UAAU,CAAC,EAAE,CAAC,UAAU,CAAC,UAAU,CACtC;8BACM,gCAAc;8CAAC;AAdb,eAAe;IAD3B,gBAAM,CAAC,WAAW,CAAC;GACP,eAAe,CAwB3B;AAxBY,0CAAe"}

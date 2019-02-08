@@ -1,1 +1,1 @@
-{"version":3,"file":"proveedor.controller.js","sourceRoot":"","sources":["../../src/Proveedor/proveedor.controller.ts"],"names":[],"mappings":""}
+{"version":3,"file":"proveedor.controller.js","sourceRoot":"","sources":["../../src/Proveedor/proveedor.controller.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,2CAA0C;AAC1C,0DAAoD;AACpD,mEAA6D;AAK7D,IAAa,mBAAmB,GAAhC;IAEI,YACqB,aAA2B,EACpC,aAA8B;QADrB,kBAAa,GAAb,aAAa,CAAc;QACpC,kBAAa,GAAb,aAAa,CAAiB;IACtC,CAAC;CAER,CAAA;AAPY,mBAAmB;IAF/B,mBAAU,CAAC,WAAW,CAAC;qCAKgB,4BAAY;QACrB,kCAAe;GAJjC,mBAAmB,CAO/B;AAPY,kDAAmB"}
