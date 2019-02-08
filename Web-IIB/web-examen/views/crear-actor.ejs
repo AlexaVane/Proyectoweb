@@ -1,0 +1,99 @@
+<% const existeTitulo = typeof titulo !== "undefined"%>
+<% const estaCreando = typeof actor === "undefined"%>
+<% const existeMensaje = typeof mensaje !== "undefined"%>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>
+        <%= existeTitulo ? titulo : 'Examen Web'%>
+    </title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1><%= estaCreando ? 'REGISTRAR':'ACTUALIZAR' %> ACTOR</h1>
+        <% if (existeMensaje){%>
+        <p>MENSAJE: <%=mensaje%></p>
+        <%}%>
+        <form action="/actor/<%= estaCreando ? 'crear' : 'actualizar' %>-actor/<%= estaCreando ? '' : actor.id %>" method="POST">
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-6" class="form-group">
+                        <div class="form-group" >
+                            <label class="col-form-label" for="nombres">Nombres</label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label" for="apellidos">Apellidos</label>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-form-label" for="fechaNacimiento">Fecha de Nacimiento</label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label" for="numeroPeliculas">Número de Peliculas</label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label" for="retirado">Retirado</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" class="form-group">
+                        <div class="form-group">
+                            <input class="form-control   " type="text" id="nombres" name="nombres" value="<%= estaCreando ? '' : actor.nombres%>">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="apellidos" name="apellidos" value="<%= estaCreando ? '' : actor.apellidos%>" >
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="date" id="fechaNacimiento" name="fechaNacimiento" value="<%= estaCreando ? '' : actor.fechaNacimiento%>">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="number" id="numeroPeliculas" name="numeroPeliculas" min=1 value="<%= estaCreando ? '' : actor.numeroPeliculas%>">
+                        </div>
+                        <div class="form-group">
+                            <select class="custom-select" id="retirado" name="retirado" value="<%= estaCreando ? '' : actor.retirado%>">
+                                <option selected>Opcion...</option>
+                                <option value=true>Si</option>
+                                <option value=false>No</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                    <div class="row">
+                            <div class="col-sm-4">
+                                <button class="btn btn-outline-success btn-block">
+                                    <%= estaCreando ? 'Crear' : 'Actualizar'%> actor
+                                </button>
+                            </div>
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-4">
+                                <div>
+                                    <a href="/actor/inicio"><button class="btn btn-outline-dark btn-block">Regresar</button></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+       
+        </form>
+    </div>
+    
+    <script src="/js/jquery.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <script>
+        $(function () {
+            $('.popover-contenido').popover({
+                container: 'body'
+            })
+        })
+    </script>
+</body>
+
+</html>
