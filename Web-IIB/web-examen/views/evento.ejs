@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evento</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+            <form action="/evento" method="GET">
+        <div class="row">
+            <h1>Eventos</h1>
+            <div></div>
+        </div>
+        <div class="row">
+            
+                <div class="col-sm-4">
+                    <label for="busqueda">Buscar</label>
+                </div>
+                <div class="col-sm-6">
+                    <input class="form-control" type="text" id="busqueda" name="busqueda">
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-outline-info btn-block ">Buscar</button>
+                </div>
+            
+        </div>
+    </form>
+        <div class="row">
+        </div>
+        <h2>Listado de eventos</h2>
+        <div class="scroll-tabla">
+            <table class="table table-hover animated slideInLeft">
+                <thead>
+                    <tr>
+                        <th>Nombre del Evento</th>
+                        <th>Fecha Acciones</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% arreglo.map( (evento)=> { %>
+                    <tr>
+                        <td>
+                            <%= evento.nombre%>
+                        </td>
+                        <td>
+                            <%= evento.fecha%>
+                        </td>
+                        <td>
+                            <a href="/evento-pelicula/ver-peliculas/<%= evento.id%>" class="quitar-link">
+                                <button class="btn btn-outline-info btn-block estaciado-boton">Ver</button>
+                            </a>
+                        </td>
+                    </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
