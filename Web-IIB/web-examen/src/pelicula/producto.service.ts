@@ -4,18 +4,18 @@ import { Repository, FindManyOptions } from "typeorm";
 import { PeliculaEntity } from "./pelicula.entity";
 import { PeliculaCreateDto } from "./pelicula-create-dto/pelicula-create.dto";
 import { PeliculaUpdateDto } from "./pelicula-update-dto/pelicula-update.dto";
-import { ActorService } from "src/actor/actor.service";
+import { TelasService } from "src/actor/telas.service";
 import { ActorEntity } from "src/actor/actor.entity";
 
 
 @Injectable()
 
-export class PeliculaService {
+export class ProductoService {
     constructor(
         @InjectRepository(PeliculaEntity)
         private readonly _peliculaRepository: Repository<PeliculaEntity>,
-        @Inject(forwardRef(()=> ActorService))
-        private readonly actorService: ActorService
+        @Inject(forwardRef(()=> TelasService))
+        private readonly actorService: TelasService
     ) { }
 
     async findOne(id: number) {

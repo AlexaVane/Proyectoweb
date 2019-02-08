@@ -21,9 +21,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-const pelicula_service_1 = require("./pelicula.service");
+const producto_service_1 = require("./producto.service");
 const pelicula_create_dto_1 = require("./pelicula-create-dto/pelicula-create.dto");
-const actor_service_1 = require("src/actor/actor.service");
+const telas_service_1 = require("src/actor/telas.service");
 let PeliculaController = class PeliculaController {
     constructor(_peliculaService, _actorService) {
         this._peliculaService = _peliculaService;
@@ -141,8 +141,8 @@ __decorate([
 ], PeliculaController.prototype, "editarUno", null);
 PeliculaController = __decorate([
     common_1.Controller('pelicula'),
-    __metadata("design:paramtypes", [pelicula_service_1.PeliculaService,
-        actor_service_1.ActorService])
+    __metadata("design:paramtypes", [producto_service_1.ProductoService,
+        telas_service_1.TelasService])
 ], PeliculaController);
 exports.PeliculaController = PeliculaController;
 //# sourceMappingURL=pelicula.controller.js.map

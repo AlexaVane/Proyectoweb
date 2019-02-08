@@ -1,11 +1,11 @@
 import { Controller, Get, Param, Res, Post, Body, Delete, Req, Query, Session } from '@nestjs/common';
-import { ActorService } from './actor.service';
+import { TelasService } from './telas.service';
 import { PeliculaEntity } from 'src/pelicula/pelicula.entity';
 import { EventoCreateDto } from './actor-create-dto/actor-create.dto';
 import { ActorUpdateDto } from './actor-update-dto/actor-update.dto';
 import { PeliculaCreateDto } from 'src/pelicula/pelicula-create-dto/pelicula-create.dto';
 import { Like, FindManyOptions } from 'typeorm';
-import { PeliculaService } from '../pelicula/pelicula.service';
+import { ProductoService } from '../pelicula/producto.service';
 import { ActorEntity } from './actor.entity';
 import { ActorCreateDto } from 'src/evento/evento-create-dto/evento-create.dto';
 
@@ -14,8 +14,8 @@ import { ActorCreateDto } from 'src/evento/evento-create-dto/evento-create.dto';
 export class ActorController {
 
     constructor(
-        private readonly _actorService: ActorService,
-        private _peliculaService: PeliculaService
+        private readonly _actorService: TelasService,
+        private _peliculaService: ProductoService
     ) { }
 
     @Get('buscar')

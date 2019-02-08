@@ -6,18 +6,18 @@ import { ActorUpdateDto } from "./actor-update-dto/actor-update.dto";
 import { ActorCreateDto } from "src/evento/evento-create-dto/evento-create.dto";
 import { EventoCreateDto } from "./actor-create-dto/actor-create.dto";
 import { PeliculaEntity } from "src/pelicula/pelicula.entity";
-import { PeliculaService } from "src/pelicula/pelicula.service";
+import { ProductoService } from "src/pelicula/producto.service";
 
 
 @Injectable()
 
-export class ActorService {
+export class TelasService {
     
     constructor(
         @InjectRepository(ActorEntity)
         private readonly _usuarioRepository: Repository<ActorEntity>,
-        @Inject(forwardRef(()=>PeliculaService))
-        private readonly peliculaService:PeliculaService,
+        @Inject(forwardRef(()=>ProductoService))
+        private readonly peliculaService:ProductoService,
     ) { }
 
     async findOne(id: number) {

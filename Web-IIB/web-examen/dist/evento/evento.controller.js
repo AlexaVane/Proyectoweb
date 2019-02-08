@@ -23,7 +23,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const evento_update_dto_1 = require("./evento-update-dto/evento-update.dto");
 const evento_service_1 = require("./evento.service");
-const pelicula_service_1 = require("src/pelicula/pelicula.service");
+const producto_service_1 = require("src/pelicula/producto.service");
 const evento_entity_1 = require("./evento.entity");
 const evento_service_2 = require("src/evento-pelicula/evento.service");
 const typeorm_1 = require("typeorm");
@@ -163,7 +163,7 @@ __decorate([
 EventoController = __decorate([
     common_1.Controller('evento'),
     __metadata("design:paramtypes", [evento_service_1.EventoService,
-        pelicula_service_1.PeliculaService,
+        producto_service_1.ProductoService,
         evento_service_2.EventoPeliculaService])
 ], EventoController);
 exports.EventoController = EventoController;

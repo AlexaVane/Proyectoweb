@@ -1,11 +1,11 @@
 import { Module, forwardRef } from "@nestjs/common";
 import { TypeOrmModule } from "@nestjs/typeorm";
-import { PeliculaService } from "./pelicula.service";
+import { ProductoService } from "./producto.service";
 import { PeliculaCreateDto } from "./pelicula-create-dto/pelicula-create.dto";
 import { PeliculaEntity } from "./pelicula.entity";
 import { PeliculaController } from "./pelicula.controller";
 import { ActorModule } from "src/actor/actor.module";
-import { ActorService } from "src/actor/actor.service";
+import { TelasService } from "src/actor/telas.service";
 
 @Module({
     imports: [
@@ -13,9 +13,9 @@ import { ActorService } from "src/actor/actor.service";
         ,TypeOrmModule.forFeature([
         PeliculaEntity
     ])],
-    providers: [PeliculaService],
+    providers: [ProductoService],
     controllers: [PeliculaController],
-    exports: [PeliculaService],
+    exports: [ProductoService],
 })
 
 export class PeliculaModule {

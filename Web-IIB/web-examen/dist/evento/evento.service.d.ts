@@ -8,6 +8,6 @@ export declare class EventoService {
     findOne(id: number): Promise<EventoEntity>;
     findAll(parametros?: FindManyOptions<EventoEntity>): Promise<EventoEntity[]>;
     create(datosCrearEvento: ActorCreateDto): Promise<ActorCreateDto & EventoEntity>;
-    delete(id: number): Promise<import("typeorm").DeleteResult>;
-    update(id: number, datosEditarEvento: EventoUpdateDto): Promise<import("typeorm").UpdateResult>;
+    delete(id: number): Promise<import("../../../../../../../node_modules/typeorm/query-builder/result/DeleteResult").DeleteResult>;
+    update(id: number, datosEditarEvento: EventoUpdateDto): Promise<import("../../../../../../../node_modules/typeorm/query-builder/result/UpdateResult").UpdateResult>;
 }

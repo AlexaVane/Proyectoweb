@@ -1,9 +1,9 @@
 import { Controller, Get, Param, Post, Body, Delete, Req, BadRequestException, Put, Res, Query, Session } from "@nestjs/common";
-import { PeliculaService } from "./pelicula.service";
+import { ProductoService } from "./producto.service";
 import { PeliculaCreateDto } from "./pelicula-create-dto/pelicula-create.dto";
 import { PeliculaUpdateDto } from "./pelicula-update-dto/pelicula-update.dto";
 import { PeliculaEntity } from "./pelicula.entity";
-import { ActorService } from "src/actor/actor.service";
+import { TelasService } from "src/actor/telas.service";
 import { ActorEntity } from "src/actor/actor.entity";
 
 
@@ -13,8 +13,8 @@ import { ActorEntity } from "src/actor/actor.entity";
 export class PeliculaController {
 
     constructor(
-        private readonly _peliculaService: PeliculaService,
-        private readonly _actorService: ActorService,
+        private readonly _peliculaService: ProductoService,
+        private readonly _actorService: TelasService,
     ) { }
  
     @Get('buscar')

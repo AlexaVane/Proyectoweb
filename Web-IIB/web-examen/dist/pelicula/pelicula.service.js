@@ -24,7 +24,7 @@ const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const typeorm_2 = require("typeorm");
 const pelicula_entity_1 = require("./pelicula.entity");
-const actor_service_1 = require("src/actor/actor.service");
+const telas_service_1 = require("src/actor/telas.service");
 let PeliculaService = class PeliculaService {
     constructor(_peliculaRepository, actorService) {
         this._peliculaRepository = _peliculaRepository;
@@ -64,9 +64,9 @@ let PeliculaService = class PeliculaService {
 PeliculaService = __decorate([
     common_1.Injectable(),
     __param(0, typeorm_1.InjectRepository(pelicula_entity_1.PeliculaEntity)),
-    __param(1, common_1.Inject(common_1.forwardRef(() => actor_service_1.ActorService))),
+    __param(1, common_1.Inject(common_1.forwardRef(() => telas_service_1.TelasService))),
     __metadata("design:paramtypes", [typeorm_2.Repository,
-        actor_service_1.ActorService])
+        telas_service_1.TelasService])
 ], PeliculaService);
 exports.PeliculaService = PeliculaService;
 //# sourceMappingURL=pelicula.service.js.map

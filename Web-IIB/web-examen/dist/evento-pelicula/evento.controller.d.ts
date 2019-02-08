@@ -9,6 +9,6 @@ export declare class EventoPeliculaController {
     findOne(id: any): Promise<EventoPeliculaEntity>;
     ver(res: any, idEventoPelicula: string): Promise<void>;
     create(eventoPeliculaCrear: EventoPeliculaCreateDto): Promise<EventoPeliculaCreateDto & EventoPeliculaEntity>;
-    eliminarUno(req: any): Promise<import("typeorm").DeleteResult>;
-    editarUno(idEventoPelicula: any, eventoPeliculaEditar: EventoPeliculaUpdateDto): Promise<import("typeorm").UpdateResult>;
+    eliminarUno(req: any): Promise<import("../../../../../../../node_modules/typeorm/query-builder/result/DeleteResult").DeleteResult>;
+    editarUno(idEventoPelicula: any, eventoPeliculaEditar: EventoPeliculaUpdateDto): Promise<import("../../../../../../../node_modules/typeorm/query-builder/result/UpdateResult").UpdateResult>;
 }

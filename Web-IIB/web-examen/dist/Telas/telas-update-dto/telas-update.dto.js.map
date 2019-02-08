@@ -1,1 +1,1 @@
-{"version":3,"file":"telas-update.dto.js","sourceRoot":"","sources":["../../../src/telas/telas-update-dto/telas-update.dto.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,qDAA8F;AAE9F,MAAa,cAAc;CAwB1B;AArBG;IADC,4BAAU,EAAE;;0CACD;AAIZ;IAFC,4BAAU,EAAE;IACZ,0BAAQ,EAAE;;+CACK;AAPpB,wCAwBC"}
+{"version":3,"file":"telas-update.dto.js","sourceRoot":"","sources":["../../../src/telas/telas-update-dto/telas-update.dto.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,qDAA8F;AAE9F;CAwBC;AArBG;IADC,4BAAU,EAAE;;0CACD;AAIZ;IAFC,4BAAU,EAAE;IACZ,0BAAQ,EAAE;;+CACK;AAPpB,wCAwBC"}

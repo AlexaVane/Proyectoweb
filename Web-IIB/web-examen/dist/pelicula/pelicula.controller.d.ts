@@ -1,11 +1,11 @@
-import { PeliculaService } from "./pelicula.service";
+import { ProductoService } from "./producto.service";
 import { PeliculaCreateDto } from "./pelicula-create-dto/pelicula-create.dto";
 import { PeliculaEntity } from "./pelicula.entity";
-import { ActorService } from "src/actor/actor.service";
+import { TelasService } from "src/actor/telas.service";
 export declare class PeliculaController {
     private readonly _peliculaService;
     private readonly _actorService;
-    constructor(_peliculaService: PeliculaService, _actorService: ActorService);
+    constructor(_peliculaService: ProductoService, _actorService: TelasService);
     findAll(): Promise<PeliculaEntity[]>;
     findOne(id: any): Promise<PeliculaEntity>;
     crearPelicula(res: any): Promise<void>;

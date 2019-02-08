@@ -4,7 +4,7 @@ import { EventoUpdateDto } from "./evento-update-dto/evento-update.dto";
 import { EventoService } from "./evento.service";
 import { ActorCreateDto } from "./evento-create-dto/evento-create.dto";
 import { PeliculaEntity } from "src/pelicula/pelicula.entity";
-import { PeliculaService } from "src/pelicula/pelicula.service";
+import { ProductoService } from "src/pelicula/producto.service";
 import { EventoEntity } from "./evento.entity";
 import { EventoPeliculaService } from "src/evento-pelicula/evento.service";
 import { FindManyOptions, Like } from "typeorm";
@@ -16,7 +16,7 @@ export class EventoController {
 
     constructor(
         private readonly _eventoService: EventoService,
-        private readonly _peliculaService: PeliculaService,
+        private readonly _peliculaService: ProductoService,
         private readonly _eventoPeliculaService: EventoPeliculaService,
     ) { }
 

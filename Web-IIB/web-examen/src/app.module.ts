@@ -25,9 +25,9 @@ import {RolPorUsuarioEntity} from './rolPorUsuario/rolPorUsuario.entity';
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
-      port: 32771,
-      username: 'admin',
-      password: '12345678',
+      port: 3306,
+      username: 'root',
+      password: 'javier',
       database: 'web',
       synchronize: true,
       dropSchema: false,
