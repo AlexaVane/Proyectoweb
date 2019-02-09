@@ -9,6 +9,6 @@ export declare class EventoPeliculaService {
     findOne(id: number): Promise<EventoPeliculaEntity>;
     findAll(): Promise<EventoPeliculaEntity[]>;
     create(datosCrearEventoPelicula: EventoPeliculaCreateDto): Promise<EventoPeliculaCreateDto & EventoPeliculaEntity>;
-    delete(id: number): Promise<import("../../../../../../../node_modules/typeorm/query-builder/result/DeleteResult").DeleteResult>;
-    update(id: number, datosEditarEventoPelicula: EventoPeliculaUpdateDto): Promise<import("../../../../../../../node_modules/typeorm/query-builder/result/UpdateResult").UpdateResult>;
+    delete(id: number): Promise<import("typeorm").DeleteResult>;
+    update(id: number, datosEditarEventoPelicula: EventoPeliculaUpdateDto): Promise<import("typeorm").UpdateResult>;
 }

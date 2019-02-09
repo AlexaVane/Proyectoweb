@@ -156,7 +156,7 @@ __decorate([
     __param(0, common_1.Body()),
     __param(1, common_1.Res()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [typeof (_a = typeof EventoCreateDto !== "undefined" && EventoCreateDto) === "function" && _a || Object, Object]),
+    __metadata("design:paramtypes", [typeof (_a = typeof EventoCreateDto !== "undefined" && EventoCreateDto) === "function" ? _a : Object, Object]),
     __metadata("design:returntype", void 0)
 ], TelasController.prototype, "create", null);
 __decorate([
@@ -183,7 +183,7 @@ __decorate([
     __param(1, common_1.Res()),
     __param(2, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object, typeof (_b = typeof EventoCreateDto !== "undefined" && EventoCreateDto) === "function" && _b || Object]),
+    __metadata("design:paramtypes", [Object, Object, typeof (_b = typeof EventoCreateDto !== "undefined" && EventoCreateDto) === "function" ? _b : Object]),
     __metadata("design:returntype", Promise)
 ], TelasController.prototype, "editarUno", null);
 TelasController = __decorate([

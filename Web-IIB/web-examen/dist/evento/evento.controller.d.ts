@@ -14,6 +14,6 @@ export declare class EventoController {
     verPelicula(res: any): void;
     irAEvento(res: any): Promise<void>;
     create(res: any, eventoCrear: EventoEntity): void;
-    eliminarUno(req: any): Promise<import("../../node_modules/typeorm/query-builder/result/DeleteResult").DeleteResult>;
-    editarUno(idEvento: any, eventoEditar: EventoUpdateDto): Promise<import("../../node_modules/typeorm/query-builder/result/UpdateResult").UpdateResult>;
+    eliminarUno(req: any): Promise<import("typeorm").DeleteResult>;
+    editarUno(idEvento: any, eventoEditar: EventoUpdateDto): Promise<import("typeorm").UpdateResult>;
 }
